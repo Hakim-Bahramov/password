@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Task 2</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div class="container">
+	<div class="row">
+		<div class="col-4 offset-4 mt-5 ">
+			<div class="d-flex my-3">
+				<img src="image/icons8-замок-32 (1).png" alt="" class="h-100">
+				<form action="" class="ml-2">
+					<input type="password" placeholder="Password" class="border-0" id="inOne" onkeyup="textFunction()">
+					<div class="d-inline-block btn_sm ml-5">
+						<button id="button" type = "edit" class="btn-sm d-none btn p-0 ml-4"><div class="x d-flex justify-content-center align-items-center">&#10006;</div></button>
+					</div>
+
+					<input type="checkbox" onclick="myFunction()" id = "func" class="d-none">
+					<label for="func"><img src="image/icons8-закрытый-глаз-32 (1).png" alt=""></label>
+				</form>
+			</div>
+
+			<div class="progress mt-3">
+				<div class="progress-bar" id="pb"></div>
+			</div>
+			<small class="d-block text-center pt-1" id="text"></small>
+		</div>
+	</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
